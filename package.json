@@ -5,20 +5,37 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "ssr:serve": "vue-cli-service ssr:serve",
+    "ssr:build": "vue-cli-service ssr:build",
+    "ssr:start": "vue-cli-service ssr:start",
+    "generate": "vue-cli-service generate"
   },
   "dependencies": {
+    "@vueneue/ssr-core": "^0.3.0",
+    "@vueneue/ssr-server": "^0.3.0",
+    "koa-compress": "^3.0.0",
+    "ol": "^5.1.3",
     "vue": "^2.5.17",
+    "vue-class-component": "^6.2.0",
+    "vue-i18n": "^8.0.0",
+    "vue-meta": "^1.5.0",
+    "vue-no-ssr": "^0.2.2",
+    "vue-property-decorator": "^7.0.0",
     "vue-router": "^3.0.1",
-    "vuex": "^3.0.1"
+    "vuex": "^3.0.1",
+    "vuex-class": "^0.3.1"
   },
   "devDependencies": {
+    "@kazupon/vue-i18n-loader": "^0.3.0",
     "@vue/cli-plugin-babel": "^3.0.0",
     "@vue/cli-plugin-eslint": "^3.0.0",
     "@vue/cli-service": "^3.0.0",
     "@vue/eslint-config-prettier": "^3.0.0",
+    "@vueneue/vue-cli-plugin-ssr": "^0.3.14",
     "node-sass": "^4.9.0",
     "sass-loader": "^7.0.1",
+    "vue-cli-plugin-i18n": "^0.5.0",
     "vue-template-compiler": "^2.5.17"
   }
 }
